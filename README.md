@@ -102,3 +102,11 @@ SSR 用の設定は不要。
 $ git rm src/store/module-example/index.js 
 $ git mv src/store/module-example/* src/store/
 ```
+
+## CORS 回避
+
+テスト環境の Cross-Origin Resource Sharing (CORS) 問題を回避するために以下のようにする。
+
+* HTTP API の URL のベースは SPA を配置したサーバの ./api とする。
+* ``quasar.conf.js`` の ``devServer`` にプロキシの設定を追加して、
+  ``/api`` へのリクエストを HTTP API のテスト用サーバに転送する。
