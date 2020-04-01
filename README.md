@@ -11,7 +11,7 @@ Sample 1 SPA
 
 ## Git と GitHub の利用に必要な設定
 
-Sample 1 API の [README.md]((https://github.com/MichinobuMaeda/sample1api) を参照のこと。
+Sample 1 API の [README.md](https://github.com/MichinobuMaeda/sample1api) を参照のこと。
 
 
 ## Node.js
@@ -36,7 +36,7 @@ $ yarn global add @quasar/cli
 ## プロジェクトの利用
 
 HTTP API については Sample 1 API の
-[README.md]((https://github.com/MichinobuMaeda/sample1api) を参照のこと。
+[README.md](https://github.com/MichinobuMaeda/sample1api) を参照のこと。
 
 ```
 $ git clone git@github.com:MichinobuMaeda/sample1spa.git
