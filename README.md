@@ -35,8 +35,10 @@ $ yarn global add @quasar/cli
 
 ## プロジェクトの利用
 
-HTTP API については Sample 1 API の
-[README.md](https://github.com/MichinobuMaeda/sample1api) を参照のこと。
+[Sample 1 API](https://github.com/MichinobuMaeda/sample1api)
+の「プロジェクトの利用」の手順で HTTP API を起動しておく。
+
+GitHub からこのソースを取得する。
 
 ```
 $ git clone git@github.com:MichinobuMaeda/sample1spa.git
